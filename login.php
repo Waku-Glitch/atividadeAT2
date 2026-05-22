@@ -163,7 +163,7 @@
                         <label class="font-label-md text-label-md text-on-surface-variant block ml-1" for="email">Email Address</label>
                         <div class="relative group">
                             <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline-variant transition-colors group-focus-within:text-primary">mail</span>
-                            <input class="w-full pl-12 pr-4 py-3.5 bg-surface-container-lowest border border-outline-variant/30 rounded-lg font-body-md text-body-md text-on-surface input-focus-ring transition-all" id="email" placeholder="name@company.com" required="" type="email" />
+                            <input class="w-full pl-12 pr-4 py-3.5 bg-surface-container-lowest border border-outline-variant/30 rounded-lg font-body-md text-body-md text-on-surface input-focus-ring transition-all" id="email" placeholder="name@company.com" required="" type="email" name="email" />
                         </div>
                     </div>
                     <div class="space-y-2">
@@ -173,7 +173,7 @@
                         </div>
                         <div class="relative group">
                             <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline-variant transition-colors group-focus-within:text-primary">lock</span>
-                            <input class="w-full pl-12 pr-12 py-3.5 bg-surface-container-lowest border border-outline-variant/30 rounded-lg font-body-md text-body-md text-on-surface input-focus-ring transition-all" id="password" placeholder="••••••••" required="" type="password" />
+                            <input class="w-full pl-12 pr-12 py-3.5 bg-surface-container-lowest border border-outline-variant/30 rounded-lg font-body-md text-body-md text-on-surface input-focus-ring transition-all" id="password" placeholder="••••••••" name="senha" required="" type="password" />
                             <button class="absolute right-4 top-1/2 -translate-y-1/2 text-outline-variant hover:text-primary transition-colors" type="button">
                                 <span class="material-symbols-outlined">visibility</span>
                             </button>
