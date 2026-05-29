@@ -11,16 +11,10 @@ $sql = "SELECT * FROM usuarios
         AND senha='$senha'";
 
 $result = $conn->query($sql);
-
 if ($result->num_rows > 0) {
-
     $_SESSION['usuario'] = $email;
-
     header("Location: dashboard.php");
-
 } else {
-
     echo "Email ou senha inválidos";
-
 }
 ?>
